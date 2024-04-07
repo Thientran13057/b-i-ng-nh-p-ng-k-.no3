@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web bán hàng</title> 
+    <link rel="stylesheet" href="trang chủ.css">
+</head>
+<body> 
+    
+    <div class="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div class="content">
+    <div class="navbar">
+        <a href="trang chủ.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="#products">Sản phẩm</a>
+        <a href="contact.html">Liên hệ</a>
+        <div class="cart-container">
+            <a href="#" id="cart-icon"><img src="https://www.freeiconspng.com/thumbs/cart-icon/cart-icon-16.png" alt="Giỏ hàng"></a>
+            <div id="cart-dropdown" class="cart-dropdown">
+                <p>Giỏ hàng của bạn:</p>
+                <ul id="cart-items"></ul>
+                <p>Tổng cộng: <span id="cart-total">0</span></p>
+                <a href="#" id="checkout-button">Thanh toán</a>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <form action="/search">
+                <input type="text" placeholder="Tìm kiếm..." name="search">
+                <button type="submit">Tìm kiếm</button>
+            </form>
+        </div>
+        <div class="navbar-login">
+            <a href="index.html">Đăng ký / Đăng nhập</a>
+        </div>
+    </div>
+    <!-- Nội dung trang web -->
+    <div style="padding: 20px;">
+<br>
+<br>
+        <h2>Shop bán đồ đắt tiền</h2>
+        <p>Chỉ để trưng chứ ko bán.</p>
+    </div>
+
+    <div class="item-all">
+        <div class="item">
+<div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRru46BFnIK_P1crDwi_sqbWw4SEWA74cVcbg&usqp=CAU" alt=""class="edited-image">
+    <div id="product-container">
+       <h2>NẾN THƠM HOLIDAY 2022 FIR SIZE M</h2>
+        <p>Khối lượng: Size M - 800 gram.</p>
+        <p>Giá: 9,980,000đ</p>
+        <button id="buy-button">Mua hàng</button>
+    </div>
+</div>
+</div>
+<div class="item">
+<div>
+    <img src="https://onlinestore.thaicong.com/wp-content/uploads/cache/2020/06/400x400/ourika.jpg" alt=""class="edited-image">
+    <div id="product-container">
+       <div class="item1"> <h2>NẾN THƠM DADA SIZE S</h2></div>
+        <p>Khối lượng: Size S - 270 gram.</p>
+        <p>Giá: 3,280,000đ</p>
+        <button id="buy-button">Mua hàng</button>
+    </div>
+</div>
+</div>
+<div class="item">
+<div>
+    <img src="https://onlinestore.thaicong.com/wp-content/uploads/2022/03/BALMAIN-SIZE-S.jpg" alt=""class="edited-image">
+    <div id="product-container">
+       <div class="item2"> <h2>CIRE TRVDON</h2></div>
+        <p>Khối lượng: Size S - 270 gram.</p>
+        <p>Giá: 4,230,000đ</p>
+        <button id="buy-button">Mua hàng</button>
+    </div>
+</div>
+</div>
+<div class="item">
+<div>
+    <img src="https://onlinestore.thaicong.com/wp-content/uploads/2020/04/cloche-1500x1500-1.jpg" alt=""class="edited-image">
+    <div id="product-container">
+       <div class="item2"> <h2>ĐỒ CHỤP NẾN</h2></div>
+        <p>• Chiều cao: 22,5 cm <p>• Đường kính: 14,5 cm.</p>
+        <p>Giá: 3,380,000Đ</p>
+        <button id="buy-button">Mua hàng</button>
+    </div>
+</div>
+</div>
+<div class="item">
+<div>
+    <img src="https://onlinestore.thaicong.com/wp-content/uploads/cache/2020/04/1000x1000/Arcahorn1500x1500-94.jpg" alt=""class="edited-image">
+    <div id="product-container">
+       <div class="item2"> <h2>KHAY SIZE S</h2></div>
+        <p>Size: 48x25x5 cm</p>
+        <p>Giá: 58,200,000Đ</p>
+        <button id="buy-button">Mua hàng</button>
+    </div>
+</div>
+</div>
+<div class="item">
+<div>
+    <img src="https://onlinestore.thaicong.com/wp-content/uploads/cache/2020/04/1000x1000/Arcahorn1500x1500-100.jpg" alt=""class="edited-image">
+    <div id="product-container">
+       <div class="item2"> <h2>HỘP ĐỰNG KHĂN GIẤY</h2></div>
+        <p>Size: 25x14x7 cm</p>
+        <p>Giá: 28,550,000Đ</p>
+        
+        <button id="buy-button">Mua hàng</button>
+    </div>
+</div>
+</div>
+</div>
+<footer>
+    <p>© 2024 - Web bán hàng . Tất cả các quyền được bảo lưu.</p>
+</footer>
+<script src="shopcart.js"></script>
+<script src="loading.js"></script>
+<script src="findbox.js"></script>
+</body>
+</html>
